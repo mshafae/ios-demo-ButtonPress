@@ -13,9 +13,6 @@
 		0318369F2ACD2CE30023B29C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0318369D2ACD2CE30023B29C /* Main.storyboard */; };
 		031836A12ACD2CE50023B29C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031836A02ACD2CE50023B29C /* Assets.xcassets */; };
 		031836A42ACD2CE50023B29C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031836A22ACD2CE50023B29C /* LaunchScreen.storyboard */; };
-		031836AF2ACD2CE60023B29C /* ButtonPressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031836AE2ACD2CE60023B29C /* ButtonPressTests.swift */; };
-		031836B92ACD2CE60023B29C /* ButtonPressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031836B82ACD2CE60023B29C /* ButtonPressUITests.swift */; };
-		031836BB2ACD2CE60023B29C /* ButtonPressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031836BA2ACD2CE60023B29C /* ButtonPressUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		031836A32ACD2CE50023B29C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		031836A52ACD2CE50023B29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031836AA2ACD2CE60023B29C /* ButtonPressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonPressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		031836AE2ACD2CE60023B29C /* ButtonPressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPressTests.swift; sourceTree = "<group>"; };
 		031836B42ACD2CE60023B29C /* ButtonPressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonPressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		031836B82ACD2CE60023B29C /* ButtonPressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPressUITests.swift; sourceTree = "<group>"; };
-		031836BA2ACD2CE60023B29C /* ButtonPressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPressUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				031836962ACD2CE30023B29C /* ButtonPress */,
-				031836AD2ACD2CE60023B29C /* ButtonPressTests */,
-				031836B72ACD2CE60023B29C /* ButtonPressUITests */,
 				031836952ACD2CE30023B29C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				031836A52ACD2CE50023B29C /* Info.plist */,
 			);
 			path = ButtonPress;
-			sourceTree = "<group>";
-		};
-		031836AD2ACD2CE60023B29C /* ButtonPressTests */ = {
-			isa = PBXGroup;
-			children = (
-				031836AE2ACD2CE60023B29C /* ButtonPressTests.swift */,
-			);
-			path = ButtonPressTests;
-			sourceTree = "<group>";
-		};
-		031836B72ACD2CE60023B29C /* ButtonPressUITests */ = {
-			isa = PBXGroup;
-			children = (
-				031836B82ACD2CE60023B29C /* ButtonPressUITests.swift */,
-				031836BA2ACD2CE60023B29C /* ButtonPressUITestsLaunchTests.swift */,
-			);
-			path = ButtonPressUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031836AF2ACD2CE60023B29C /* ButtonPressTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031836BB2ACD2CE60023B29C /* ButtonPressUITestsLaunchTests.swift in Sources */,
-				031836B92ACD2CE60023B29C /* ButtonPressUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
